@@ -88,7 +88,6 @@ export class ChurnRateUsecases {
       })
       objDate.valor = (objDate.inative/objDate.active) * 100
     })
-    console.log(rangeArray);
     return rangeArray;
   }
 }
